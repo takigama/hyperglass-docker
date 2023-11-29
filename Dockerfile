@@ -10,7 +10,7 @@ RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
 RUN apt update
 RUN apt install -y nodejs yarn redis-server
-RUN pip3 install hyperglass
+RUN pip3 install hyperglass==1.0.4
 RUN hyperglass setup -d
 COPY hyperglass.yaml /root/hyperglass/
 COPY devices.yaml /root/hyperglass/
