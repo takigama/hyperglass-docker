@@ -4,7 +4,7 @@ Pretty easy:
 
 1) git clone https://github.com/takigama/hyperglass-docker.git
 2) cd hyperglass-docker
-3) docker built -t hyperglass .
+3) docker build -t hyperglass .
 4) STORAGE=/someplacetostorestuff
 5) mkdir $STORAGE
 6) docker run -d --name hyperglass --rm -v $STORAGE:/root/hyperglass/ hyperglass 
