@@ -1,0 +1,10 @@
+debug: false
+developer_mode: false
+org_name: Beloved Hyperglass User
+site_title: hyperglass
+site_description: "{org_name} Network Looking Glass"
+site_keywords: [hyperglass, looking glass, routing, bgp]
+request_timeout: 30
+listen_address: "0.0.0.0"
+listen_port: 8001
+cors_origins: [lg.example.com, 192.0.2.1]
