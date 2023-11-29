@@ -12,7 +12,7 @@ Pretty easy:
 8) vi $STORAGE/hyperglass.yaml <---- configure
 9) vi $STORAGE/devices.yaml <---- configure
 10) vi $STORAGE/that other file i cant remember the name of.yaml <---- configure
-11) docker run --it --rm --name hyperglass -v $STORAGE:/root/hyperglass/ hyperglass hyperglass build-ui
+11) docker run -it --rm --name hyperglass -v $STORAGE:/root/hyperglass/ hyperglass hyperglass build-ui
 12) ... wait ....
 13) docker run -d --name hyperglass -v $STORAGE:/root/hyperglass -p 80:8001 hyperglass
 
